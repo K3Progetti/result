@@ -1,0 +1,27 @@
+{
+    "name": "sangio90/result",
+    "type": "library",
+    "description": "Response interface",
+    "keywords": ["response", "json"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "K3\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "K3\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
