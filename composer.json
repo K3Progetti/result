@@ -1,17 +1,17 @@
 {
-    "name": "K3Progetti/result",
+    "name": "k3progetti/result",
     "type": "library",
     "description": "Response interface",
     "keywords": ["response", "json"],
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "K3\\": "src/"
+            "Esc\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "K3\\Tests\\": "tests"
+            "Esc\\Tests\\": "tests"
         }
     },
     "require": {

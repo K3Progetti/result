@@ -1,6 +1,6 @@
 <?php
 
-namespace K3\Tests;
+namespace Esc\Tests;
 
 use PHPUnit\Framework\TestCase;
 
